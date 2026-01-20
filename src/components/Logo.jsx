@@ -1,11 +1,12 @@
 import React from 'react'
+import blog from '../../public/blog.jpeg'
 
 function Logo(width = '100px') {
   return (
     <div>
-      Logo
+      <img src={blog} alt="Logo" />
     </div>
   )
 }
 
-export default Logo
+export default Logo;
